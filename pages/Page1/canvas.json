@@ -13,19 +13,20 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1190,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
@@ -110,6 +111,9 @@
                 },
                 {
                   "key": "primaryColumns.customColumn1.buttonLabel"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "leftColumn": 0,
@@ -121,7 +125,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -129,7 +133,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Investment_Fund",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Investment_Fund))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Investment_Fund))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Location": {
                   "index": 1,
@@ -138,7 +144,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -146,7 +152,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Location",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Location))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Location))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Name_of_Investor": {
                   "index": 2,
@@ -155,7 +163,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -163,7 +171,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Name_of_Investor",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Name_of_Investor))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Name_of_Investor))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Designation": {
                   "index": 3,
@@ -172,7 +182,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -180,7 +190,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Designation",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Designation))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Designation))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Interesting_Portfolio_Companies": {
                   "index": 4,
@@ -189,7 +201,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -197,7 +209,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Interesting_Portfolio_Companies",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Interesting_Portfolio_Companies))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Interesting_Portfolio_Companies))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Size_of_Fund": {
                   "index": 5,
@@ -206,7 +220,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -214,7 +228,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Size_of_Fund",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Size_of_Fund))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Size_of_Fund))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Ref_Check_Names": {
                   "index": 6,
@@ -223,7 +239,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": false,
@@ -231,7 +247,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Ref_Check_Names",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Ref_Check_Names))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Ref_Check_Names))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Ref_Check_Details": {
                   "index": 7,
@@ -240,7 +258,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": false,
@@ -248,7 +266,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Ref_Check_Details",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Ref_Check_Details))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Ref_Check_Details))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Website": {
                   "index": 8,
@@ -257,7 +277,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -265,7 +285,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Website",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Website))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Website))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Notes": {
                   "index": 9,
@@ -274,7 +296,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -282,7 +304,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Notes",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Notes))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Notes))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "Interest_Levels": {
                   "index": 10,
@@ -291,7 +315,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -299,7 +323,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "Interest_Levels",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Interest_Levels))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Interest_Levels))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "rowIndex": {
                   "index": 11,
@@ -308,7 +334,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": false,
@@ -316,7 +342,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "rowIndex",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}"
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "customColumn1": {
                   "index": 12,
@@ -337,7 +365,9 @@
                   "menuColor": "#03B365",
                   "labelColor": "#FFFFFF",
                   "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Delete'))}}",
-                  "onClick": "{{deleteInvestorDetail.run(() => getInvestorDetails.run(), () => {})}}"
+                  "onClick": "{{deleteInvestorDetail.run(() => getInvestorDetails.run(), () => {})}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 }
               },
               "delimiter": ",",
@@ -361,12 +391,16 @@
                   "buttonColor": "#03B365",
                   "menuColor": "#03B365",
                   "labelColor": "#FFFFFF",
-                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Delete'))}}"
+                  "buttonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Delete'))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 }
               },
+              "labelTextSize": "0.875rem",
               "rightColumn": 36,
-              "textSize": "PARAGRAPH",
+              "textSize": "0.875rem",
               "widgetId": "rnj67iaq1o",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": true,
               "tableData": "{{ getInvestorDetails.data }}",
               "isVisible": true,
@@ -380,6 +414,24 @@
               "isLoading": false,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER",
               "columnSizeMap": {
@@ -389,6 +441,7 @@
               }
             },
             {
+              "boxShadow": "none",
               "widgetName": "add_btn",
               "onClick": "{{showModal('Modal1')}}",
               "buttonColor": "#03B365",
@@ -411,6 +464,7 @@
               "text": "Add",
               "isDisabled": false,
               "key": "3h9bjy4bb2",
+              "labelTextSize": "0.875rem",
               "rightColumn": 33,
               "isDefaultClickDisabled": true,
               "widgetId": "evowcyelvi",
@@ -420,10 +474,12 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
             {
+              "boxShadow": "none",
               "widgetName": "Modal1",
               "isCanvas": true,
               "displayName": "Modal",
@@ -439,6 +495,7 @@
               "leftColumn": 0,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
@@ -455,7 +512,7 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
-                      "boxShadow": "NONE",
+                      "boxShadow": "none",
                       "widgetName": "IconButton1",
                       "onClick": "{{closeModal('Modal1')}}",
                       "buttonColor": "#2E3D49",
@@ -470,6 +527,7 @@
                       "iconSize": 24,
                       "isDisabled": false,
                       "key": "kv57dbbrcu",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "iconName": "cross",
                       "widgetId": "p5ceyr26c6",
@@ -478,11 +536,17 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "SHARP",
+                      "borderRadius": "0px",
                       "buttonVariant": "TERTIARY"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 1,
@@ -492,11 +556,13 @@
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Add New Investor",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 41,
                       "textAlign": "LEFT",
                       "widgetId": "pjetr3xroz",
@@ -507,9 +573,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{closeModal('Modal1')}}",
                       "buttonColor": "#03B365",
@@ -524,6 +592,7 @@
                       "text": "Close",
                       "isDisabled": false,
                       "key": "3h9bjy4bb2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 49,
                       "isDefaultClickDisabled": true,
                       "widgetId": "mlk6ygvze1",
@@ -534,10 +603,12 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button2",
                       "onClick": "{{addNewInvestor.run(() => getInvestorDetails.run(() => closeModal('Modal1')), () => {})}}",
                       "buttonColor": "#03B365",
@@ -563,6 +634,7 @@
                       "text": "Submit",
                       "isDisabled": false,
                       "key": "3h9bjy4bb2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 61,
                       "isDefaultClickDisabled": true,
                       "widgetId": "90vmgmsz8b",
@@ -573,10 +645,12 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addFund",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -588,25 +662,35 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
-                      "isRequired": false,
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
                       "rightColumn": 62,
                       "widgetId": "5ladtx6oey",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text2",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -619,11 +703,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Investment Fund",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 41,
                       "textAlign": "LEFT",
                       "widgetId": "l2aab2xp1k",
@@ -634,9 +720,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text3",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -649,11 +737,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Location",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 42,
                       "textAlign": "LEFT",
                       "widgetId": "ml999xudpg",
@@ -664,9 +754,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addLocation",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -680,23 +772,32 @@
                       "parentColumnSpace": 6.9375,
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
                       "widgetId": "hwfdusi7rx",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text4",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -709,11 +810,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Name of Investor",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 41,
                       "textAlign": "LEFT",
                       "widgetId": "nnxgbz3jfo",
@@ -724,9 +827,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addInvestorInput",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -740,23 +845,32 @@
                       "parentColumnSpace": 6.9375,
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
                       "widgetId": "8qjhahwdvr",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text5",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -769,11 +883,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Designation",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 42,
                       "textAlign": "LEFT",
                       "widgetId": "3tvom1bzje",
@@ -784,9 +900,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addDesignation",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -800,23 +918,32 @@
                       "parentColumnSpace": 6.9375,
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
                       "widgetId": "tzhtmog5ui",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text6",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -829,11 +956,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Interesting Portfolio Companies",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 42,
                       "textAlign": "LEFT",
                       "widgetId": "gbmbuzm2iy",
@@ -844,9 +973,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addPortifolio",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -860,23 +991,32 @@
                       "parentColumnSpace": 6.9375,
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
                       "widgetId": "syu63247yf",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text7",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -889,11 +1029,13 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Size of Fund",
                       "key": "lmygyrv061",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 43,
                       "textAlign": "LEFT",
                       "widgetId": "ppxzobot8q",
@@ -904,9 +1046,11 @@
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "addFundSize",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -920,25 +1064,34 @@
                       "parentColumnSpace": 6.9375,
                       "resetOnSubmit": true,
                       "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "a5gcfaube0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
                       "widgetId": "wvifwcbco2",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "m42dp7s9u6",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     }
                   ],
                   "isDisabled": false,
                   "key": "43b7zhptj9",
+                  "labelTextSize": "0.875rem",
                   "rightColumn": 0,
                   "detachFromLayout": true,
                   "widgetId": "m42dp7s9u6",
@@ -946,11 +1099,13 @@
                   "version": 1,
                   "parentId": "g84wbvyk7e",
                   "renderMode": "CANVAS",
-                  "isLoading": false
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "key": "vvacb9v616",
               "height": 612,
+              "labelTextSize": "0.875rem",
               "rightColumn": 0,
               "detachFromLayout": true,
               "widgetId": "g84wbvyk7e",
@@ -960,13 +1115,19 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "width": 456
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 8,
@@ -979,28 +1140,21 @@
               "leftColumn": 36,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas2",
-                  "rightColumn": 391.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "3khvti4eze",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 540,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "ik7tx120eo",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text8",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1013,11 +1167,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Investment Fund",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 38,
                       "textAlign": "LEFT",
                       "widgetId": "qaic2s8v2b",
@@ -1028,9 +1184,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editFund",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1048,26 +1206,38 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 64,
                       "widgetId": "02mltp7hiv",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Investment_Fund}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text9",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 0,
@@ -1079,11 +1249,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Investor Details",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 41,
                       "textAlign": "LEFT",
                       "widgetId": "qc8f5vkpt9",
@@ -1094,9 +1266,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text10",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1109,11 +1283,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Name of Investor",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 34,
                       "textAlign": "LEFT",
                       "widgetId": "hmmdspnnx8",
@@ -1124,9 +1300,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editInvestorInput",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1144,25 +1322,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 34,
                       "widgetId": "hfy8mctu0k",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Name_of_Investor}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text11",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1175,11 +1360,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 36,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Designation",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "textAlign": "LEFT",
                       "widgetId": "x786x6vg6s",
@@ -1190,9 +1377,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editDesignation",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1210,25 +1399,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 64,
                       "widgetId": "9nju3ark5k",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Designation}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text12",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1241,11 +1437,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Interesting Portfolio Companies",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
                       "widgetId": "th23xhs5p8",
@@ -1256,9 +1454,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editPortifolio",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1276,25 +1476,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 64,
                       "widgetId": "njg62zbvsi",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Interesting_Portfolio_Companies}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text13",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1307,11 +1514,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Size of Fund",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 34,
                       "textAlign": "LEFT",
                       "widgetId": "xu3czbbkdq",
@@ -1322,9 +1531,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editFundSize",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1342,25 +1553,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 34,
                       "widgetId": "a73i52laeg",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Size_of_Fund}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text14",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1373,11 +1591,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 36,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Interest Levels",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "textAlign": "LEFT",
                       "widgetId": "3rp5j1wwmk",
@@ -1388,9 +1608,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editInterestLevels",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1408,25 +1630,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 64,
                       "widgetId": "1uv9sprhz1",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Interest_Levels}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text15",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1439,11 +1668,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Location",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 34,
                       "textAlign": "LEFT",
                       "widgetId": "20osa72wdc",
@@ -1454,9 +1685,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editLocation",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1474,25 +1707,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 34,
                       "widgetId": "den5gbmjo1",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Location}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text16",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1505,11 +1745,13 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 36,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Website",
                       "key": "68hcjjdaai",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "textAlign": "LEFT",
                       "widgetId": "yjqhtq7di5",
@@ -1520,9 +1762,11 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "editWebsite",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -1540,25 +1784,32 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "uxsce14dj0",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 64,
                       "widgetId": "q675x1dqk9",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.Website}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button3",
                       "onClick": "{{editInvestorDetail.run(() => getInvestorDetails.run(), () => {})}}",
                       "buttonColor": "#03B365",
@@ -1586,6 +1837,7 @@
                       "text": "Update Details",
                       "isDisabled": false,
                       "key": "hij3d43t6h",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "acp4dt6p88",
@@ -1595,15 +1847,28 @@
                       "parentId": "3khvti4eze",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
                   ],
-                  "key": "o0p9rrcny2"
+                  "key": "o0p9rrcny2",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 391.5,
+                  "detachFromLayout": true,
+                  "widgetId": "3khvti4eze",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "ik7tx120eo",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "3vunuuv6dq",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 64,
               "widgetId": "ik7tx120eo",
@@ -1613,367 +1878,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
-            },
-            {
-              "schema": {
-                "__root_schema__": {
-                  "children": {
-                    "Investment_Fund": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Investment_Fund))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "SC30",
-                      "isCustomField": false,
-                      "accessor": "Investment_Fund",
-                      "identifier": "Investment_Fund",
-                      "position": 0,
-                      "originalIdentifier": "Investment_Fund",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Investment Fund"
-                    },
-                    "Location": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Location))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "San Francisco",
-                      "isCustomField": false,
-                      "accessor": "Location",
-                      "identifier": "Location",
-                      "position": 1,
-                      "originalIdentifier": "Location",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Location"
-                    },
-                    "Name_of_Investor": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Name_of_Investor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "Steph Curry",
-                      "isCustomField": false,
-                      "accessor": "Name_of_Investor",
-                      "identifier": "Name_of_Investor",
-                      "position": 2,
-                      "originalIdentifier": "Name_of_Investor",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Name Of Investor"
-                    },
-                    "Designation": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Designation))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "Partner",
-                      "isCustomField": false,
-                      "accessor": "Designation",
-                      "identifier": "Designation",
-                      "position": 3,
-                      "originalIdentifier": "Designation",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Designation"
-                    },
-                    "Interesting_Portfolio_Companies": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Interesting_Portfolio_Companies))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "Snaptravel, Tonal",
-                      "isCustomField": false,
-                      "accessor": "Interesting_Portfolio_Companies",
-                      "identifier": "Interesting_Portfolio_Companies",
-                      "position": 4,
-                      "originalIdentifier": "Interesting_Portfolio_Companies",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Interesting Portfolio Companies"
-                    },
-                    "Size_of_Fund": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Size_of_Fund))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "$100",
-                      "isCustomField": false,
-                      "accessor": "Size_of_Fund",
-                      "identifier": "Size_of_Fund",
-                      "position": 5,
-                      "originalIdentifier": "Size_of_Fund",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Size Of Fund"
-                    },
-                    "Ref_Check_Names": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Ref_Check_Names))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "",
-                      "isCustomField": false,
-                      "accessor": "Ref_Check_Names",
-                      "identifier": "Ref_Check_Names",
-                      "position": 6,
-                      "originalIdentifier": "Ref_Check_Names",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Ref Check Names"
-                    },
-                    "Ref_Check_Details": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Ref_Check_Details))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "",
-                      "isCustomField": false,
-                      "accessor": "Ref_Check_Details",
-                      "identifier": "Ref_Check_Details",
-                      "position": 7,
-                      "originalIdentifier": "Ref_Check_Details",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Ref Check Details"
-                    },
-                    "Website": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Website))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "https://www.tigerglobal.com/",
-                      "isCustomField": false,
-                      "accessor": "Website",
-                      "identifier": "Website",
-                      "position": 8,
-                      "originalIdentifier": "Website",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Website"
-                    },
-                    "Notes": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Notes))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "Steph loves us! He's willing to invest, but not lead. ",
-                      "isCustomField": false,
-                      "accessor": "Notes",
-                      "identifier": "Notes",
-                      "position": 9,
-                      "originalIdentifier": "Notes",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Notes"
-                    },
-                    "Interest_Levels": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Interest_Levels))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "4",
-                      "isCustomField": false,
-                      "accessor": "Interest_Levels",
-                      "identifier": "Interest_Levels",
-                      "position": 10,
-                      "originalIdentifier": "Interest_Levels",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Interest Levels"
-                    },
-                    "rowIndex": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rowIndex))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "1",
-                      "isCustomField": false,
-                      "accessor": "rowIndex",
-                      "identifier": "rowIndex",
-                      "position": 11,
-                      "originalIdentifier": "rowIndex",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Row Index"
-                    },
-                    "customColumn1": {
-                      "children": {},
-                      "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.customColumn1))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Text Input",
-                      "sourceData": "",
-                      "isCustomField": false,
-                      "accessor": "customColumn1",
-                      "identifier": "customColumn1",
-                      "position": 12,
-                      "originalIdentifier": "customColumn1",
-                      "iconAlign": "left",
-                      "isDisabled": false,
-                      "isRequired": false,
-                      "isSpellCheck": false,
-                      "isVisible": true,
-                      "label": "Custom Column 1"
-                    }
-                  },
-                  "dataType": "object",
-                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                  "fieldType": "Object",
-                  "sourceData": {
-                    "Investment_Fund": "SC30",
-                    "Location": "San Francisco",
-                    "Name_of_Investor": "Steph Curry",
-                    "Designation": "Partner",
-                    "Interesting_Portfolio_Companies": "Snaptravel, Tonal",
-                    "Size_of_Fund": "$100",
-                    "Ref_Check_Names": "",
-                    "Ref_Check_Details": "",
-                    "Website": "https://www.tigerglobal.com/",
-                    "Notes": "Steph loves us! He's willing to invest, but not lead. ",
-                    "Interest_Levels": "4",
-                    "rowIndex": "1",
-                    "customColumn1": ""
-                  },
-                  "isCustomField": false,
-                  "accessor": "__root_schema__",
-                  "identifier": "__root_schema__",
-                  "position": -1,
-                  "originalIdentifier": "__root_schema__",
-                  "isDisabled": false,
-                  "isRequired": false,
-                  "isVisible": true,
-                  "label": ""
-                }
-              },
-              "widgetName": "JSONForm1",
-              "submitButtonStyles": {
-                "buttonColor": "#03B365",
-                "buttonVariant": "PRIMARY"
-              },
-              "dynamicPropertyPathList": [
-                {
-                  "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
-                }
-              ],
-              "displayName": "JSON Form",
-              "iconSVG": "/static/media/icon.6bacf7df.svg",
-              "topRow": 67,
-              "bottomRow": 117,
-              "fieldLimitExceeded": false,
-              "parentRowSpace": 10,
-              "title": "Form",
-              "type": "JSON_FORM_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 16.3125,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 36,
-              "dynamicBindingPathList": [
-                {
-                  "key": "schema.__root_schema__.defaultValue"
-                },
-                {
-                  "key": "sourceData"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Investment_Fund.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Location.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Name_of_Investor.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Designation.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Interesting_Portfolio_Companies.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Size_of_Fund.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Ref_Check_Names.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Ref_Check_Details.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Website.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Notes.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.Interest_Levels.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.rowIndex.defaultValue"
-                },
-                {
-                  "key": "schema.__root_schema__.children.customColumn1.defaultValue"
-                }
-              ],
-              "sourceData": "{{Table1.selectedRow}}",
-              "showReset": true,
-              "resetButtonLabel": "Reset",
-              "key": "ulz43bypso",
-              "backgroundColor": "#fff",
-              "rightColumn": 61,
-              "autoGenerateForm": true,
-              "widgetId": "9gnz1qkmjj",
-              "resetButtonStyles": {
-                "buttonColor": "#03B365",
-                "buttonVariant": "SECONDARY"
-              },
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "scrollContents": true,
-              "fixedFooter": true,
-              "submitButtonLabel": "Submit",
-              "disabledWhenInvalid": true
+              "borderRadius": "0px"
             }
           ]
         },
@@ -1989,50 +1894,6 @@
             }
           ]
         ],
-        "widgetNames": [
-          "Button1",
-          "Button2",
-          "Button3",
-          "Canvas1",
-          "Canvas2",
-          "Container1",
-          "IconButton1",
-          "JSONForm1",
-          "MainContainer",
-          "Modal1",
-          "Table1",
-          "Text1",
-          "Text10",
-          "Text11",
-          "Text12",
-          "Text13",
-          "Text14",
-          "Text15",
-          "Text16",
-          "Text2",
-          "Text3",
-          "Text4",
-          "Text5",
-          "Text6",
-          "Text7",
-          "Text8",
-          "Text9",
-          "addDesignation",
-          "addFund",
-          "addFundSize",
-          "addInvestorInput",
-          "addLocation",
-          "addPortifolio",
-          "add_btn",
-          "editDesignation",
-          "editFund",
-          "editFundSize",
-          "editInterestLevels",
-          "editInvestorInput",
-          "editLocation",
-          "editPortifolio",
-          "editWebsite"
-        ],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
@@ -2044,6 +1905,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "624e8eaf51a8863d6c405caf_624e8eaf51a8863d6c405cb1"
 }

@@ -1,48 +1,5 @@
 {
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 4,
-  "pageOrder": [
-    "Page1"
-  ],
-  "publishedPageOrder": [
-    "Page1"
-  ],
-  "publishedDefaultPageName": "Page1",
-  "unpublishedDefaultPageName": "Page1",
-  "invisibleActionFields": {
-    "Page1_addNewInvestor": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Page1_deleteInvestorDetail": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Page1_editInvestorDetail": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Page1_getInvestorDetails": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    }
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
-  },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {},
+  "serverSchemaVersion": 6,
   "fileFormatVersion": 2
 }

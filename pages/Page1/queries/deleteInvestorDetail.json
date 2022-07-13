@@ -78,12 +78,74 @@
             {}
           ]
         }
-      ]
+      ],
+      "formData": {
+        "command": {
+          "data": "DELETE_ONE",
+          "viewType": "component",
+          "componentData": "DELETE_ONE"
+        },
+        "entityType": {
+          "data": "ROWS",
+          "viewType": "component",
+          "componentData": "ROWS"
+        },
+        "pagination": {
+          "data": {
+            "offset": "0",
+            "limit": "10"
+          },
+          "viewType": "component",
+          "componentData": {
+            "offset": "0",
+            "limit": "10"
+          }
+        },
+        "queryFormat": {
+          "data": "ROWS",
+          "viewType": "component",
+          "componentData": "ROWS"
+        },
+        "rowIndex": {
+          "data": "{{Table1.selectedRow.rowIndex}}",
+          "viewType": "component",
+          "componentData": "{{Table1.selectedRow.rowIndex}}"
+        },
+        "sheetName": {
+          "data": "Investor Details",
+          "viewType": "component",
+          "componentData": "Investor Details"
+        },
+        "sheetUrl": {
+          "data": "https://docs.google.com/spreadsheets/d/1VfyHlEjqufJQh7G5Dhk36VVccKfO4GQS_EBo-dYBhsU/edit",
+          "viewType": "component",
+          "componentData": "https://docs.google.com/spreadsheets/d/1VfyHlEjqufJQh7G5Dhk36VVccKfO4GQS_EBo-dYBhsU/edit"
+        },
+        "smartSubstitution": {
+          "data": true,
+          "viewType": "component",
+          "componentData": true
+        },
+        "tableHeaderIndex": {
+          "data": "1",
+          "viewType": "component",
+          "componentData": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND"
+          },
+          "viewType": "component",
+          "componentData": {
+            "condition": "AND"
+          }
+        }
+      }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "pluginSpecifiedTemplates[11].value"
+        "key": "formData.rowIndex.data"
       }
     ],
     "isValid": true,
