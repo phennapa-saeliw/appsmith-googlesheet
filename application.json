@@ -11,6 +11,7 @@
   "clonedFromApplicationId": "624bb82351a8863d6c4016d0",
   "color": "#FBF4ED",
   "icon": "arrow-down",
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
