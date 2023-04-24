@@ -110,7 +110,7 @@
                       "isDeprecated": false,
                       "rightColumn": 37,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "iuce0w5slx",
+                      "widgetId": "btn-login",
                       "minWidth": 120,
                       "isVisible": true,
                       "recaptchaType": "V3",
