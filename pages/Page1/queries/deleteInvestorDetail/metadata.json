@@ -111,6 +111,9 @@
           "viewType": "component",
           "componentData": "ROWS"
         },
+        "range": {
+          "data": ""
+        },
         "rowIndex": {
           "data": "{{Table1.selectedRow.rowIndex}}",
           "viewType": "component",
